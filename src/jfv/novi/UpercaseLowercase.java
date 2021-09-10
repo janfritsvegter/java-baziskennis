@@ -9,6 +9,11 @@ public class UpercaseLowercase {
         System.out.println("Voer een woord/zin in");
         String sentence = input.nextLine();
 
+        char firstLetterSmall = sentence.toLowerCase().charAt(0);
+        System.out.println(firstLetterSmall);
+        char firstLetterBig = sentence.toUpperCase().charAt(0);
+        System.out.println(firstLetterBig);
+
         System.out.println(sentence.toLowerCase());
         System.out.println(sentence.toUpperCase());
 
@@ -18,7 +23,7 @@ public class UpercaseLowercase {
             System.out.println(i + " " + words[i]);
             if(i<(words.length-1)){
                 sb.append(Character.toUpperCase(words[i].charAt(0)));
-                sb.append(words[i].substring(1));
+                sb.append(words[i].substring(1).toLowerCase());
                 sb.append(" ");
             }
             else {
