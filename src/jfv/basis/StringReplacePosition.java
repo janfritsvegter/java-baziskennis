@@ -1,4 +1,4 @@
-package jfv.novi;
+package jfv.basis;
 
 public class StringReplacePosition {
     public static void main(String[] args) {

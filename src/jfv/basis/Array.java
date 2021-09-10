@@ -1,4 +1,4 @@
-package jfv.novi;
+package jfv.basis;
 
 public class Array {
     public static void main(String[] args) {

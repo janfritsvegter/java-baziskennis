@@ -1,4 +1,4 @@
-package jfv.novi;
+package jfv.basis;
 // https://www.educative.io/edpresso/how-to-generate-random-numbers-in-java
 import java.util.Random;
 

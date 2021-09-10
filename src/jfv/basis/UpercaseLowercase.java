@@ -1,4 +1,4 @@
-package jfv.novi;
+package jfv.basis;
 
 import java.util.Scanner;
 

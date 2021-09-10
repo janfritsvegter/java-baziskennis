@@ -1,4 +1,4 @@
-package jfv.novi;
+package jfv.basis;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
