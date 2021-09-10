@@ -9,7 +9,7 @@ public class Filehandling {
         // This exception can be handled on the place that this method is called
         // a little bit strange for a main method but ok
         // in case of any other method  it works
-        // in this case we should use try and catch
+        // in this case we should use try and catch g
 
         String scores = "PlayerA: 3 , PlayerB 9";
 
