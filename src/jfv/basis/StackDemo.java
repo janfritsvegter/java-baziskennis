@@ -1,7 +1,20 @@
 package jfv.basis;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Stack;
 
+// import java.util.*;
+/*
+A Stack is a data structure where you add elements to the "top"
+of the stack, and also remove elements from the top again. This
+is also referred to as the "Last In First Out (LIFO)" principle.
+In contrast, a Java Queue uses a "First In First Out (FIFO)" principle,
+where elements are added to the end of the queue, and removed
+from the beginning of the queue.
+ */
 // Stack is singronized only one shread can acces stack at a time
 public class StackDemo {
     public static void main(String[] args) {
